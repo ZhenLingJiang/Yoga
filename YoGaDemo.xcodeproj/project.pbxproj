@@ -1,0 +1,628 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A1A9356520920DED00B7E193 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A1A9356420920DED00B7E193 /* AppDelegate.m */; };
+		A1A9356820920DED00B7E193 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1A9356720920DED00B7E193 /* ViewController.m */; };
+		A1A9356B20920DED00B7E193 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1A9356920920DED00B7E193 /* Main.storyboard */; };
+		A1A9356D20920DED00B7E193 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1A9356C20920DED00B7E193 /* Assets.xcassets */; };
+		A1A9357020920DED00B7E193 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1A9356E20920DED00B7E193 /* LaunchScreen.storyboard */; };
+		A1A9357320920DED00B7E193 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A1A9357220920DED00B7E193 /* main.m */; };
+		A1A9357D20920DED00B7E193 /* YoGaDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A1A9357C20920DED00B7E193 /* YoGaDemoTests.m */; };
+		A1A9358820920DED00B7E193 /* YoGaDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A1A9358720920DED00B7E193 /* YoGaDemoUITests.m */; };
+		A1A9359720920E6300B7E193 /* CustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A1A9359620920E6300B7E193 /* CustomCell.m */; };
+		A1A935B220920F4A00B7E193 /* YGEnums.c in Sources */ = {isa = PBXBuildFile; fileRef = A1A935A620920F4A00B7E193 /* YGEnums.c */; };
+		A1A935B320920F4A00B7E193 /* Yoga.c in Sources */ = {isa = PBXBuildFile; fileRef = A1A935A720920F4A00B7E193 /* Yoga.c */; };
+		A1A935B420920F4A00B7E193 /* YGNodeList.c in Sources */ = {isa = PBXBuildFile; fileRef = A1A935A820920F4A00B7E193 /* YGNodeList.c */; };
+		A1A935B520920F4A00B7E193 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = A1A935A920920F4A00B7E193 /* LICENSE */; };
+		A1A935B620920F4A00B7E193 /* YGLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = A1A935AE20920F4A00B7E193 /* YGLayout.m */; };
+		A1A935B720920F4A00B7E193 /* UIView+Yoga.m in Sources */ = {isa = PBXBuildFile; fileRef = A1A935AF20920F4A00B7E193 /* UIView+Yoga.m */; };
+		A1A935B820920F4A00B7E193 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = A1A935B020920F4A00B7E193 /* README.md */; };
+		A1A935B920920F4A00B7E193 /* LICENSE-examples in Resources */ = {isa = PBXBuildFile; fileRef = A1A935B120920F4A00B7E193 /* LICENSE-examples */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A1A9357920920DED00B7E193 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A1A9355820920DEC00B7E193 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A1A9355F20920DEC00B7E193;
+			remoteInfo = YoGaDemo;
+		};
+		A1A9358420920DED00B7E193 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A1A9355820920DEC00B7E193 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A1A9355F20920DEC00B7E193;
+			remoteInfo = YoGaDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A1A9356020920DEC00B7E193 /* YoGaDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YoGaDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1A9356320920DED00B7E193 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A1A9356420920DED00B7E193 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A1A9356620920DED00B7E193 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A1A9356720920DED00B7E193 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A1A9356A20920DED00B7E193 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A1A9356C20920DED00B7E193 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A1A9356F20920DED00B7E193 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A1A9357120920DED00B7E193 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1A9357220920DED00B7E193 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A1A9357820920DED00B7E193 /* YoGaDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YoGaDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1A9357C20920DED00B7E193 /* YoGaDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YoGaDemoTests.m; sourceTree = "<group>"; };
+		A1A9357E20920DED00B7E193 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1A9358320920DED00B7E193 /* YoGaDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YoGaDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1A9358720920DED00B7E193 /* YoGaDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YoGaDemoUITests.m; sourceTree = "<group>"; };
+		A1A9358920920DED00B7E193 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1A9359520920E6300B7E193 /* CustomCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomCell.h; sourceTree = "<group>"; };
+		A1A9359620920E6300B7E193 /* CustomCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomCell.m; sourceTree = "<group>"; };
+		A1A935A220920F4A00B7E193 /* YGEnums.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YGEnums.h; sourceTree = "<group>"; };
+		A1A935A320920F4A00B7E193 /* YGMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YGMacros.h; sourceTree = "<group>"; };
+		A1A935A420920F4A00B7E193 /* Yoga.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Yoga.h; sourceTree = "<group>"; };
+		A1A935A520920F4A00B7E193 /* YGNodeList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YGNodeList.h; sourceTree = "<group>"; };
+		A1A935A620920F4A00B7E193 /* YGEnums.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = YGEnums.c; sourceTree = "<group>"; };
+		A1A935A720920F4A00B7E193 /* Yoga.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Yoga.c; sourceTree = "<group>"; };
+		A1A935A820920F4A00B7E193 /* YGNodeList.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = YGNodeList.c; sourceTree = "<group>"; };
+		A1A935A920920F4A00B7E193 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		A1A935AB20920F4A00B7E193 /* YGLayout+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "YGLayout+Private.h"; sourceTree = "<group>"; };
+		A1A935AC20920F4A00B7E193 /* YGLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YGLayout.h; sourceTree = "<group>"; };
+		A1A935AD20920F4A00B7E193 /* UIView+Yoga.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Yoga.h"; sourceTree = "<group>"; };
+		A1A935AE20920F4A00B7E193 /* YGLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YGLayout.m; sourceTree = "<group>"; };
+		A1A935AF20920F4A00B7E193 /* UIView+Yoga.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Yoga.m"; sourceTree = "<group>"; };
+		A1A935B020920F4A00B7E193 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		A1A935B120920F4A00B7E193 /* LICENSE-examples */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "LICENSE-examples"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A1A9355D20920DEC00B7E193 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1A9357520920DED00B7E193 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1A9358020920DED00B7E193 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A1A9355720920DEC00B7E193 = {
+			isa = PBXGroup;
+			children = (
+				A1A9356220920DEC00B7E193 /* YoGaDemo */,
+				A1A9357B20920DED00B7E193 /* YoGaDemoTests */,
+				A1A9358620920DED00B7E193 /* YoGaDemoUITests */,
+				A1A9356120920DEC00B7E193 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A1A9356120920DEC00B7E193 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A1A9356020920DEC00B7E193 /* YoGaDemo.app */,
+				A1A9357820920DED00B7E193 /* YoGaDemoTests.xctest */,
+				A1A9358320920DED00B7E193 /* YoGaDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A1A9356220920DEC00B7E193 /* YoGaDemo */ = {
+			isa = PBXGroup;
+			children = (
+				A1A935A020920F4A00B7E193 /* YogaKit */,
+				A1A9356320920DED00B7E193 /* AppDelegate.h */,
+				A1A9356420920DED00B7E193 /* AppDelegate.m */,
+				A1A9356620920DED00B7E193 /* ViewController.h */,
+				A1A9356720920DED00B7E193 /* ViewController.m */,
+				A1A9356920920DED00B7E193 /* Main.storyboard */,
+				A1A9356C20920DED00B7E193 /* Assets.xcassets */,
+				A1A9356E20920DED00B7E193 /* LaunchScreen.storyboard */,
+				A1A9357120920DED00B7E193 /* Info.plist */,
+				A1A9357220920DED00B7E193 /* main.m */,
+				A1A9359520920E6300B7E193 /* CustomCell.h */,
+				A1A9359620920E6300B7E193 /* CustomCell.m */,
+			);
+			path = YoGaDemo;
+			sourceTree = "<group>";
+		};
+		A1A9357B20920DED00B7E193 /* YoGaDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				A1A9357C20920DED00B7E193 /* YoGaDemoTests.m */,
+				A1A9357E20920DED00B7E193 /* Info.plist */,
+			);
+			path = YoGaDemoTests;
+			sourceTree = "<group>";
+		};
+		A1A9358620920DED00B7E193 /* YoGaDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A1A9358720920DED00B7E193 /* YoGaDemoUITests.m */,
+				A1A9358920920DED00B7E193 /* Info.plist */,
+			);
+			path = YoGaDemoUITests;
+			sourceTree = "<group>";
+		};
+		A1A935A020920F4A00B7E193 /* YogaKit */ = {
+			isa = PBXGroup;
+			children = (
+				A1A935A120920F4A00B7E193 /* yoga */,
+				A1A935A920920F4A00B7E193 /* LICENSE */,
+				A1A935AA20920F4A00B7E193 /* YogaKit */,
+				A1A935B020920F4A00B7E193 /* README.md */,
+				A1A935B120920F4A00B7E193 /* LICENSE-examples */,
+			);
+			name = YogaKit;
+			path = ../../YogaKitStudy/YogaSample/YogaKit;
+			sourceTree = "<group>";
+		};
+		A1A935A120920F4A00B7E193 /* yoga */ = {
+			isa = PBXGroup;
+			children = (
+				A1A935A220920F4A00B7E193 /* YGEnums.h */,
+				A1A935A320920F4A00B7E193 /* YGMacros.h */,
+				A1A935A420920F4A00B7E193 /* Yoga.h */,
+				A1A935A520920F4A00B7E193 /* YGNodeList.h */,
+				A1A935A620920F4A00B7E193 /* YGEnums.c */,
+				A1A935A720920F4A00B7E193 /* Yoga.c */,
+				A1A935A820920F4A00B7E193 /* YGNodeList.c */,
+			);
+			path = yoga;
+			sourceTree = "<group>";
+		};
+		A1A935AA20920F4A00B7E193 /* YogaKit */ = {
+			isa = PBXGroup;
+			children = (
+				A1A935AB20920F4A00B7E193 /* YGLayout+Private.h */,
+				A1A935AC20920F4A00B7E193 /* YGLayout.h */,
+				A1A935AD20920F4A00B7E193 /* UIView+Yoga.h */,
+				A1A935AE20920F4A00B7E193 /* YGLayout.m */,
+				A1A935AF20920F4A00B7E193 /* UIView+Yoga.m */,
+			);
+			path = YogaKit;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A1A9355F20920DEC00B7E193 /* YoGaDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1A9358C20920DED00B7E193 /* Build configuration list for PBXNativeTarget "YoGaDemo" */;
+			buildPhases = (
+				A1A9355C20920DEC00B7E193 /* Sources */,
+				A1A9355D20920DEC00B7E193 /* Frameworks */,
+				A1A9355E20920DEC00B7E193 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YoGaDemo;
+			productName = YoGaDemo;
+			productReference = A1A9356020920DEC00B7E193 /* YoGaDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A1A9357720920DED00B7E193 /* YoGaDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1A9358F20920DED00B7E193 /* Build configuration list for PBXNativeTarget "YoGaDemoTests" */;
+			buildPhases = (
+				A1A9357420920DED00B7E193 /* Sources */,
+				A1A9357520920DED00B7E193 /* Frameworks */,
+				A1A9357620920DED00B7E193 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A1A9357A20920DED00B7E193 /* PBXTargetDependency */,
+			);
+			name = YoGaDemoTests;
+			productName = YoGaDemoTests;
+			productReference = A1A9357820920DED00B7E193 /* YoGaDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A1A9358220920DED00B7E193 /* YoGaDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1A9359220920DED00B7E193 /* Build configuration list for PBXNativeTarget "YoGaDemoUITests" */;
+			buildPhases = (
+				A1A9357F20920DED00B7E193 /* Sources */,
+				A1A9358020920DED00B7E193 /* Frameworks */,
+				A1A9358120920DED00B7E193 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A1A9358520920DED00B7E193 /* PBXTargetDependency */,
+			);
+			name = YoGaDemoUITests;
+			productName = YoGaDemoUITests;
+			productReference = A1A9358320920DED00B7E193 /* YoGaDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A1A9355820920DEC00B7E193 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "将离。";
+				TargetAttributes = {
+					A1A9355F20920DEC00B7E193 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					A1A9357720920DED00B7E193 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A1A9355F20920DEC00B7E193;
+					};
+					A1A9358220920DED00B7E193 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A1A9355F20920DEC00B7E193;
+					};
+				};
+			};
+			buildConfigurationList = A1A9355B20920DEC00B7E193 /* Build configuration list for PBXProject "YoGaDemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A1A9355720920DEC00B7E193;
+			productRefGroup = A1A9356120920DEC00B7E193 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A1A9355F20920DEC00B7E193 /* YoGaDemo */,
+				A1A9357720920DED00B7E193 /* YoGaDemoTests */,
+				A1A9358220920DED00B7E193 /* YoGaDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A1A9355E20920DEC00B7E193 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1A9357020920DED00B7E193 /* LaunchScreen.storyboard in Resources */,
+				A1A9356D20920DED00B7E193 /* Assets.xcassets in Resources */,
+				A1A935B820920F4A00B7E193 /* README.md in Resources */,
+				A1A935B920920F4A00B7E193 /* LICENSE-examples in Resources */,
+				A1A935B520920F4A00B7E193 /* LICENSE in Resources */,
+				A1A9356B20920DED00B7E193 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1A9357620920DED00B7E193 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1A9358120920DED00B7E193 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A1A9355C20920DEC00B7E193 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1A9356820920DED00B7E193 /* ViewController.m in Sources */,
+				A1A935B220920F4A00B7E193 /* YGEnums.c in Sources */,
+				A1A935B420920F4A00B7E193 /* YGNodeList.c in Sources */,
+				A1A935B720920F4A00B7E193 /* UIView+Yoga.m in Sources */,
+				A1A935B620920F4A00B7E193 /* YGLayout.m in Sources */,
+				A1A9357320920DED00B7E193 /* main.m in Sources */,
+				A1A935B320920F4A00B7E193 /* Yoga.c in Sources */,
+				A1A9359720920E6300B7E193 /* CustomCell.m in Sources */,
+				A1A9356520920DED00B7E193 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1A9357420920DED00B7E193 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1A9357D20920DED00B7E193 /* YoGaDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1A9357F20920DED00B7E193 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1A9358820920DED00B7E193 /* YoGaDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A1A9357A20920DED00B7E193 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A1A9355F20920DEC00B7E193 /* YoGaDemo */;
+			targetProxy = A1A9357920920DED00B7E193 /* PBXContainerItemProxy */;
+		};
+		A1A9358520920DED00B7E193 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A1A9355F20920DEC00B7E193 /* YoGaDemo */;
+			targetProxy = A1A9358420920DED00B7E193 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A1A9356920920DED00B7E193 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A1A9356A20920DED00B7E193 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A1A9356E20920DED00B7E193 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A1A9356F20920DED00B7E193 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A1A9358A20920DED00B7E193 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A1A9358B20920DED00B7E193 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A1A9358D20920DED00B7E193 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YoGaDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Oracle.YoGaDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A1A9358E20920DED00B7E193 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YoGaDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Oracle.YoGaDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A1A9359020920DED00B7E193 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YoGaDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Oracle.YoGaDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YoGaDemo.app/YoGaDemo";
+			};
+			name = Debug;
+		};
+		A1A9359120920DED00B7E193 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YoGaDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Oracle.YoGaDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YoGaDemo.app/YoGaDemo";
+			};
+			name = Release;
+		};
+		A1A9359320920DED00B7E193 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YoGaDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Oracle.YoGaDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YoGaDemo;
+			};
+			name = Debug;
+		};
+		A1A9359420920DED00B7E193 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YoGaDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Oracle.YoGaDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YoGaDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A1A9355B20920DEC00B7E193 /* Build configuration list for PBXProject "YoGaDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1A9358A20920DED00B7E193 /* Debug */,
+				A1A9358B20920DED00B7E193 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1A9358C20920DED00B7E193 /* Build configuration list for PBXNativeTarget "YoGaDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1A9358D20920DED00B7E193 /* Debug */,
+				A1A9358E20920DED00B7E193 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1A9358F20920DED00B7E193 /* Build configuration list for PBXNativeTarget "YoGaDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1A9359020920DED00B7E193 /* Debug */,
+				A1A9359120920DED00B7E193 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1A9359220920DED00B7E193 /* Build configuration list for PBXNativeTarget "YoGaDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1A9359320920DED00B7E193 /* Debug */,
+				A1A9359420920DED00B7E193 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A1A9355820920DEC00B7E193 /* Project object */;
+}
